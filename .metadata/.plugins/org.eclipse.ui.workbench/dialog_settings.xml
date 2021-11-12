@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.datatools.sqltools.internal.sqlscrapbook.wizards.NewSQLScrapbookFileCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.datatools.sql"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\temp\DBSQL_1108_Final\DBSpace501\DB_Sql\src\plsql"/>
+			<item value="D:\temp\DBSpace501\DBSpace501\DB_Sql\src\test4"/>
+			<item value="D:\temp\DBSQL_1101\DBSpace501\DB_Sql\src\test2\login"/>
+			<item value="D:\temp\DBSQL_1101\DBSpace501\DB_Sql\src\test2"/>
+			<item value="D:\temp\DBSQL_1101\DBSpace501\DB_Sql\src\test"/>
+			<item value="D:\Java교육\00.source_backUp\DBSpace501_1101_Final\DBSpace501\DB_Sql\src\test4"/>
+			<item value="D:\temp\DBSQL_1101\DBSpace501\DB_Sql\src\test4"/>
+			<item value="D:\temp\DBSQL_1101\DBSpace501\DB_Sql\src\test4\mvc"/>
+			<item value="D:\temp\DBSQL_1026_Final\DBSpace501\DB_Sql\src\study07_DB"/>
+			<item value="D:\Java교육\00.source_backUp\Java501_1025_Final\DBSpace501\DB_Sql\src\p01\db_connection"/>
+		</list>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".docx"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="true"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="Microsoft Word Document"/>
+	</section>
+</section>

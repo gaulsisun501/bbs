@@ -1,0 +1,48 @@
+package mms.member.ui;
+//3. 사용자가 메뉴를 선택할수 있는 화면을 구성해 주는 클래스
+import java.util.Scanner;
+import mms.member.action.Action;
+import mms.member.action.MemberAddAction;
+import mms.member.action.MemberListAction;
+import mms.member.action.MemberModifyAction;
+import mms.member.action.MemberRemoveAction;
+import mms.member.controller.MemberController;
+
+public class MemberUI {
+	public static void main(String[] args) {
+
+		boolean isStop = false;
+		MemberController memberController = new MemberController();
+		Scanner sc = new Scanner(System.in);
+		do {
+			System.out.println("1.회원등록\n2.회원등록보기\n3.회원정보수정");
+			System.out.println("");
+//			 menu = sc.nextInt();
+//			switch(menu) {
+//			case 1:
+//				service.addProduct();//1.insert
+//				break;
+//			case 2:
+//				p = service.getProduct();//2.select one
+//					System.out.println(p);
+//				break;
+//			case 3:
+//				v = service.getProducts();//3.select all
+//				for(int i=0; i<v.size(); i++)
+//				System.out.println(v.get(i));
+//				break;
+//			case 4:
+//				service.editProduct();//4.update
+//				break;
+//			case 5:
+//				service.delProduct();//5.삭제
+//				break;
+//			case 6:
+//				flag = false;
+//				break;	
+//			default:
+//				System.out.println("다시 입력하기");
+		} while (!isStop);
+	}
+}
+
